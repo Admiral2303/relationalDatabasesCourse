@@ -1,0 +1,9 @@
+INSERT INTO public."Journal"(
+	s_id, sub_id, date, mark)
+	VALUES (2, 1, '2018-10-31T09:31:34.667Z', 3);
+
+
+
+with ids as (select s_id, sub_id from journal where mark=5) select s_name from ids inner join student on student.s_id=ids.s_id
+and
+(select sub_name from ids inner join subject on ids.sub_id=subject.sub_id) = 'math'

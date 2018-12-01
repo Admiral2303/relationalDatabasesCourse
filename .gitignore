@@ -1,0 +1,10 @@
+.idea
+coverage
+node_modules
+logs
+jsdoc
+.DS_Store
+dist
+compiled
+package-lock.json
+.vscode
