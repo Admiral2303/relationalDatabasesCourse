@@ -1,0 +1,23 @@
+{
+  "name": "bd_lab1",
+  "version": "1.0.0",
+  "description": "bd lab1",
+  "main": "bd.js",
+  "scripts": {
+    "test": "node bd.js"
+  },
+  "keywords": [
+    "lab1",
+    "bd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "pg": "^7.7.1",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.9",
+    "sequelize": "^4.41.2",
+    "sequelizer": "^1.1.3"
+  }
+}
